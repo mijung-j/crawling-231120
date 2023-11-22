@@ -20,7 +20,10 @@ def request_geo(road):
         y = 0
         return x,y
 
-x,y = request_geo("경기도 시흥시 산기대학로 237 (정왕동, 한국산업기술대학교)")
+if __name__ == '__main__':
 
-print(f'x값: {x}')
-print(f'y값: {y}')
+
+    x,y = request_geo("경기도 시흥시 산기대학로 237 (정왕동, 한국산업기술대학교)")
+
+    print(f'x값: {x}')
+    print(f'y값: {y}')
